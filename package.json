@@ -5,6 +5,9 @@
   "description": "ESLint configuration.",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "url": "carlos-hfc/eslint-config"
+  },
   "peerDependencies": {
     "eslint": "^8.0.0",
     "typescript": ">=5"
