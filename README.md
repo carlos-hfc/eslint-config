@@ -15,15 +15,15 @@ npm i -D eslint @ch-faustino/eslint-config
 Create eslint file:
 
 ```bash
-touch .eslintrc.json
+touch eslint.config.js
 ```
 
-Add to `.eslintrc.json`:
+Add to `eslint.config.js`:
 
-```json
-{
-  "extends": "@ch-faustino/eslint-config/react"
-}
+```js
+import config from "@ch-faustino/eslint-config/react.js"
+
+export default config
 ```
 
 ### Node.js
@@ -37,13 +37,13 @@ npm i -D eslint @ch-faustino/eslint-config
 Create eslint file:
 
 ```bash
-touch .eslintrc.json
+touch eslint.config.js
 ```
 
-Add to `.eslintrc.json`:
+Add to `eslint.config.js`:
 
-```json
-{
-  "extends": "@ch-faustino/eslint-config/node"
-}
+```js
+import config from "@ch-faustino/eslint-config/node.js"
+
+export default config
 ```
