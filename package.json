@@ -5,9 +5,7 @@
   "description": "ESLint configuration.",
   "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "url": "carlos-hfc/eslint-config"
-  },
+  "repository": "https://github.com/carlos-hfc/eslint-config",
   "keywords": [
     "eslint",
     "eslintplugin",
